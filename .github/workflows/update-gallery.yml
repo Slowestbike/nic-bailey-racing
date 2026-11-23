@@ -1,0 +1,43 @@
+
+name: Automatically update photo and video gallery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/gallery/**'
+      - 'scripts/build_gallery.py'
+      - '.github/workflows/update-gallery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-gallery-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Generate gallery listings
+        run: python3 scripts/build_gallery.py
+
+      - name: Save updated gallery listings
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gallery.json videos.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Automatically refresh gallery after media upload'
+            git push
+          else
+            echo 'Gallery is already up to date.'
+          fi
