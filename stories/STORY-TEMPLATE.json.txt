@@ -1,0 +1,11 @@
+{
+  "id": "example-race-recap",
+  "date": "2027-01-15",
+  "title": "Example Race Recap",
+  "category": "Race Weekend",
+  "author": "313 Motorsports",
+  "summary": "A short introduction to your story.",
+  "image": "assets/paddock/your-photo.jpg",
+  "imageAlt": "Kart racing photo",
+  "body": "<h2>RACE WEEKEND RECAP</h2><p>Write your story here.</p>"
+}
