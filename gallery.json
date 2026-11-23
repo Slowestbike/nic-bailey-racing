@@ -38,5 +38,30 @@
     "src": "assets/gallery/driver-development/DD1.jpg",
     "title": "Dd1",
     "category": "Driver Development"
+  },
+  {
+    "src": "assets/gallery/race-weekends/RW2.jpg",
+    "title": "Rw2",
+    "category": "Race Weekends"
+  },
+  {
+    "src": "assets/gallery/race-weekends/rw3.jpg",
+    "title": "Rw3",
+    "category": "Race Weekends"
+  },
+  {
+    "src": "assets/gallery/race-weekends/rw4.jpg",
+    "title": "Rw4",
+    "category": "Race Weekends"
+  },
+  {
+    "src": "assets/gallery/race-weekends/rw5.jpg",
+    "title": "Rw5",
+    "category": "Race Weekends"
+  },
+  {
+    "src": "assets/gallery/race-weekends/rw6.jpg",
+    "title": "Rw6",
+    "category": "Race Weekends"
   }
 ]
