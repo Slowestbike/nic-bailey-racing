@@ -1,9 +1,0 @@
-313 MOTORSPORTS VIDEO GALLERY
-
-YouTube: edit videos.json and add an object: {"type":"youtube","url":"https://youtu.be/XXXXXXXXXXX","title":"Race Highlights","category":"Race Weekends"}. Replace XXXXXXXXXXX with a real YouTube ID. Do not remove existing entries.
-
-MP4: upload an .mp4 file to assets/gallery/race-weekends/ (or another existing category folder). The GitHub workflow updates videos.json automatically. Large videos should use YouTube instead; GitHub browser uploads are limited to 25 MiB per file and repository files over 100 MiB are blocked.
-
-The Gallery has All Media / Photos / Videos filters, plus the existing category filters. Photos still open in the original lightbox. Videos open in a separate player. YouTube playback requires internet access.
-
-Test on GitHub Pages: add one public YouTube video and one small MP4, verify both appear, then test playback and closing the video dialog on mobile and desktop.
