@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "src": "assets/gallery/behind-the-scenes/bs1.jpg",
+    "title": "Bs1",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs2.jpg",
+    "title": "Bs2",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs3.jpg",
+    "title": "Bs3",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs4.jpg",
+    "title": "Bs4",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs5.jpg",
+    "title": "Bs5",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs6.jpg",
+    "title": "Bs6",
+    "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/behind-the-scenes/bs7.jpg",
+    "title": "Bs7",
+    "category": "Behind the Scenes"
+  }
+]
