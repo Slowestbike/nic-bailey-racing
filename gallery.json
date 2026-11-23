@@ -33,5 +33,10 @@
     "src": "assets/gallery/behind-the-scenes/bs7.jpg",
     "title": "Bs7",
     "category": "Behind the Scenes"
+  },
+  {
+    "src": "assets/gallery/driver-development/DD1.jpg",
+    "title": "Dd1",
+    "category": "Driver Development"
   }
 ]
